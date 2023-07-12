@@ -1,0 +1,10 @@
+admin_team: admin
+rulesets:
+  - pattern: .*
+    ruleset: default
+
+enforce_2fa: true
+max_changesets: 50
+github_concurrent_threads: 4
+
+
