@@ -3,7 +3,7 @@ admin_team: admin
 enable_rulesets: true
 rulesets:
   - pattern: .*
-    ruleset: default.yaml
+    ruleset: default
 
 enforce_2fa: true
 max_changesets: 50
