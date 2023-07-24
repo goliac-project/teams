@@ -7,7 +7,8 @@ bypassapps:
   - appName: goliac-project-app
     mode: always
 on:
-  include: ~DEFAULT_BRANCH
+  include: 
+    - "~DEFAULT_BRANCH"
 
 rules:
   - ruleType: pull_request
