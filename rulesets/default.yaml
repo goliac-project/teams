@@ -4,7 +4,7 @@ metadata:
   name: default
 enforcement: evaluate
 bypassapps:
-  - appName: goliac-project-app
+  - appname: goliac-project-app
     mode: always
 on:
   include: 
