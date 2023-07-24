@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Ruleset
+metadata:
+  name: default
+enforcement: evaluate
+bypassapps:
+  - appName: goliac-project-app
+    mode: always
+on:
+  include: ~DEFAULT_BRANCH
+
+rules:
+  - ruleType: pull_request
+    parameters:
+      requiredApprovingReviewCount: 1
