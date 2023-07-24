@@ -11,6 +11,6 @@ on:
     - "~DEFAULT_BRANCH"
 
 rules:
-  - ruleType: pull_request
+  - ruletype: pull_request
     parameters:
       requiredApprovingReviewCount: 1
