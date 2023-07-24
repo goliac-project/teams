@@ -1,10 +1,18 @@
 admin_team: admin
+
+enable_rulesets: true
 rulesets:
   - pattern: .*
-    ruleset: default
+    ruleset: default.yaml
 
 enforce_2fa: true
 max_changesets: 50
 github_concurrent_threads: 4
 
+destructive_operations:
+  repositories: false
+  teams: false
+  users: false
 
+usersync:
+  plugin: noop
