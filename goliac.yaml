@@ -5,14 +5,13 @@ rulesets:
   - pattern: .*
     ruleset: default
 
-enforce_2fa: true
 max_changesets: 50
-github_concurrent_threads: 4
 
 destructive_operations:
   repositories: false
   teams: false
   users: false
+  rulesets: false
 
 usersync:
   plugin: noop
