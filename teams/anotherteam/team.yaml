@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Team
 metadata:
-  name: admin
+  name: anotherteam
 data:
   owners:
     - nzin
