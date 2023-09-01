@@ -1,3 +1,4 @@
 # DO NOT MODIFY THIS FILE MANUALLY
 * @goliac-project/admin
 /teams/admin/* @goliac-project/admin-owners @goliac-project/admin
+/teams/anotherteam/* @goliac-project/anotherteam-owners @goliac-project/admin
