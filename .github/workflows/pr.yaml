@@ -14,5 +14,5 @@ jobs:
         with:
           image: ghcr.io/nzin/goliac
           options: -v ${{ github.workspace }}:/work 
-          run: verify /work
+          run: /app/goliac verify /work
 
