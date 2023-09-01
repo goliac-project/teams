@@ -1,0 +1,18 @@
+name: Validate structure
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Verify
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/nzin/goliac
+          options: -v ${{ github.workspace }}:/work 
+          run: verify /work
+
