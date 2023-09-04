@@ -8,10 +8,10 @@ rulesets:
 max_changesets: 50
 
 destructive_operations:
-  repositories: true
-  teams: true
-  users: true
-  rulesets: true
+  repositories: false
+  teams: false
+  users: false
+  rulesets: false
 
 usersync:
   plugin: noop
