@@ -9,7 +9,7 @@ max_changesets: 50
 
 destructive_operations:
   repositories: true
-  teams: false
+  teams: true
   users: false
   rulesets: false
 
