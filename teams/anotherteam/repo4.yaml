@@ -3,4 +3,4 @@ kind: Repository
 metadata:
   name: repo4
 data:
-  public: false
+  public: true
