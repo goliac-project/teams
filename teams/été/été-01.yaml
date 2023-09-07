@@ -5,4 +5,4 @@ metadata:
 data:
   externalUserReaders:
   - nicolas.zin
-  public: true
+  public: false
