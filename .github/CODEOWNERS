@@ -2,4 +2,5 @@
 * @goliac-project/admin
 /teams/admin/* @goliac-project/admin-owners @goliac-project/admin
 /teams/anotherteam/* @goliac-project/anotherteam-owners @goliac-project/admin
+/teams/team4/* @goliac-project/team4-owners @goliac-project/admin
 /teams/été/* @goliac-project/ete-owners @goliac-project/admin
