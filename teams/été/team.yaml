@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Team
-metadata:
-  name: été
-data:
+name: été
+spec:
   owners:
     - nzin
 

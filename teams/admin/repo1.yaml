@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Repository
-metadata:
-  name: repo1
-data:
+name: repo1
+spec:
   externalUserReaders:
   - nicolas.zin
   public: true

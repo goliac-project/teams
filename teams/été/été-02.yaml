@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Repository
-metadata:
-  name: été-02
-data:
+name: été-02
+spec:
   externalUserReaders:
   - nicolas.zin
   public: true
