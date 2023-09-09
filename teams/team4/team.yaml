@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Team
+metadata:
+  name: team4
+data:
+  owners:
+    - nzin
