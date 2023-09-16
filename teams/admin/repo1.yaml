@@ -2,6 +2,4 @@ apiVersion: v1
 kind: Repository
 name: repo1
 spec:
-  externalUserReaders:
-  - nicolas.zin
   public: true
