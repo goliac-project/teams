@@ -3,4 +3,4 @@ kind: Team
 name: anotherteam
 spec:
   owners:
-    - nzin
+    - nicolas.zin
