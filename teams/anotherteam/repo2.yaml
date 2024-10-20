@@ -3,3 +3,4 @@ kind: Repository
 name: repo2
 spec:
   public: true
+  allow_auto_merge: true
