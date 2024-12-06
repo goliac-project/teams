@@ -1,6 +1,6 @@
 # DO NOT MODIFY THIS FILE MANUALLY
-* @goliac-project/admin @goliac-project-team-app[bot]
-/teams/Another Team/* @goliac-project/another-team-goliac-owners @goliac-project/admin
+* @goliac-project/admin
+"/teams/Another Team/*" @goliac-project/another-team-goliac-owners @goliac-project/admin
 /teams/admin/* @goliac-project/admin-goliac-owners @goliac-project/admin
 /teams/team4/* @goliac-project/team4-goliac-owners @goliac-project/admin
 /teams/été/* @goliac-project/ete-goliac-owners @goliac-project/admin
