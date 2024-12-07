@@ -1,5 +1,0 @@
-apiVersion: v1
-kind: User
-name: nicolas.zin
-spec:
-  githubID: nzin-alayacare
